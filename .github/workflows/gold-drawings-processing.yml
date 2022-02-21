@@ -49,3 +49,4 @@ jobs:
       - name: Debug git status
         run: |
           git status
+          git log
