@@ -53,4 +53,4 @@ jobs:
 
       - name: Push
         run: |
-          git push origin HEAD:${GITHUB_REF##*/}
+          git push origin HEAD:${{ github.head_ref }}
