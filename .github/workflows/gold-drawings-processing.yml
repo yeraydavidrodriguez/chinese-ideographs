@@ -50,3 +50,7 @@ jobs:
         run: |
           git status
           git log
+
+      - name: Push
+        run: |
+          git push
